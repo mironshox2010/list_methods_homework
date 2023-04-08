@@ -6,4 +6,5 @@ def main(fruits):
     Returns:
         int: return answer
     """
-    return
+    return fruits.count("apple")
+print(main(["apple", "banana", "apple", "pear"]))
