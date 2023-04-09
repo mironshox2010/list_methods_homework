@@ -6,4 +6,20 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    ls = []
+    ls1 = []
+    ls2 = []
+
+    while i < len(list1):
+        if list1[i] == 1:
+            ls1.append(list1[i])
+        else:
+            if list1[i] == 0:
+                ls2.append(list1[i])
+        i += 1
+    ls.append(len(ls1))
+    ls.append(len(ls2))
+    return ls
+
+print(main([0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1]))
