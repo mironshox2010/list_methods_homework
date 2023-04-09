@@ -16,4 +16,3 @@ def main(fruits):
     return fruits
 
 print(main(["apple", "banana", "apple", "pear", "apple"]))
-
