@@ -15,4 +15,4 @@ def main(fruits):
         i += 1
     return fruits
 
-print(main(["apple", "banana", "apple", "pear", "apple"]))
+print(main(["apple", "banana", "apple", "pear", "apple"])) 
