@@ -6,4 +6,4 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+   
